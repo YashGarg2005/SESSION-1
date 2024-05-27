@@ -1,0 +1,8 @@
+<launch>
+  <!-- Include the base SMB Gazebo launch file -->
+  <include file="$(find smb_gazebo)/launch/smb_gazebo.launch">
+    <!-- Override the world file argument -->
+    <arg name="world_file" value="/usr/share/gazebo-11/worlds/robocup14_spl_field.world"/>
+  </include>
+</launch>
+
